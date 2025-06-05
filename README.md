@@ -7,18 +7,17 @@ CGNTM 是一个集成大语言模型（LLM）、结构因果建模（SCM）、�
 ## 📁 项目结构
 
 ```
-├── causal_gnn.py             # 可选的 GNN 模块（未主用）
-├── cluster.py                # KMeans 层级聚类构建
-├── consistency_loss.py       # BERT-based 对抗生成语义对齐
-├── data.py / excel.py        # 预处理或旧版脚本（如未用可忽略）
-├── discriminator.py          # 判别器（WGAN）
-├── evaluate.py               # 节点评估+5项指标（NPMI / TD / CP / RCR / CSA）
-├── graph_builder.py          # 构建因果图 & 保证 DAG
-├── hierarchical_gnn.py       # 双层因果 GNN 模型
-├── llm_extraction.py         # 使用大语言模型抽取关键词与因果关系
-├── neural_scm.py             # 多层感知器结构因果模型
-├── train.py                  # 联合训练主脚本（SCM ⇆ WGAN ⇆ HGNN）
-├── wgan_generator.py         # 条件生成器
+├── causal_gnn.py             
+├── cluster.py                
+├── consistency_loss.py          
+├── discriminator.py      
+├── evaluate.py               
+├── graph_builder.py          
+├── hierarchical_gnn.py       
+├── llm_extraction.py        
+├── neural_scm.py             
+├── train.py                  
+├── wgan_generator.py         
 ├── requirements.txt
 └── README.md
 ```
